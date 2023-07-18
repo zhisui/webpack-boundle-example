@@ -1,0 +1,30 @@
+{
+    "name": "webpack-boundle-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zhisui/webpack-boundle-example.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zhisui/webpack-boundle-example/issues"
+    },
+    "homepage": "https://github.com/zhisui/webpack-boundle-example#readme",
+    "dependencies": {
+        "@babel/core": "^7.22.9",
+        "@babel/parser": "^7.22.7",
+        "@babel/preset-env": "^7.22.9",
+        "@babel/traverse": "^7.22.8",
+        "loader-utils": "^3.2.1",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4"
+    }
+}
